@@ -6,7 +6,7 @@ I am hosting this project in git to help people who are interested in using the 
 We know deep learning is powerful, but it comes with a cost of long training time. 
 Simple machine learning algorithms are also great but can't do  the complete job with at most accuracy, but they are fast.
 
-#OBSERVATION
+# OBSERVATION
 Different simple ML algorithms are doing great at identifying different things correctly, on using 7 different algorithms which are
 around 80% accuracy, i wanted to see how these things work as a cluster 
 
@@ -21,7 +21,7 @@ detection, the data is news here, but they were preclassified articles so I refe
 Please find the result metrix at the end.
 
 # Structure
-leaving the folder named "algorithm training" everything is a Django project, I used Django to create a communication mechanism, where 
+leaving the folder named "algorithm training" and "DOCS" everything is a Django project, I used Django to create a communication mechanism, where 
 you can provide some data and see whether that's real or fake.
 
 you can find the code for training the classifier in "algorithm training" folder.

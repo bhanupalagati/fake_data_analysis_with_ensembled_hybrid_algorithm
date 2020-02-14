@@ -1,0 +1,190 @@
+{% extends 'fake_news/base.html' %}
+
+{% block content%}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card mb-4 shadow-sm">
+            <img class="card-img-top"  src={{ data.6 }}/>
+            <div class="card-body">
+                <h3 class="card-title">Naive Bayes classifier</h3>
+                <div class="card-text">
+                  <p>
+                    Naïve Bayes classifier is a simple probabilistic classifier based on the Bayes theorem with great(naive) independence assumption between the data features, where the class labels are drawn from some finite set. It is not a single algorithm to train such classifiers, but a collection of algorithms based on a common principle: every naive Bayes classifier assumes that the value of a particular feature is independent to the value of any other feature, given the class variable
+
+                  </p>
+                  <p>
+                    Naïve Bayes is the most opted statistical technique for the models like email filtering, spam filtering and so on.
+                  </p>
+                  <p>
+                    Naïve Bayes works on the bag of words features where the data of different articles collected is converted into encoded format by using various vectorization techniques based on the requirement some of them are count vectorizer (CV), term frequency and inverse document frequency vectorizer (TFIDF)
+                  </p>
+                  <p>
+                    The Bag of words will be passed to the Naïve Bayes model as a training data and based on the data the model will learn
+                  </p>
+                  <p>
+                    Then when any article is passed to classify vectorizer will create sparse matrix and then model will predict based on the word distribution in the sparse matrix.
+                  </p>
+                  <b><h5>Accuracy score achieved by Naïve Bayes algorithm is 0.8966 </h5></b>
+                  <br>
+                  <b><p>•	The confusion matrix of Naïve Bayes is as follows [526, 87, 44, 610]</p></b>
+                
+        </div>
+    </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-12">
+      <div class="card mb-4 shadow-sm">
+          <img class="card-img-top"  src={{ data.7 }}/>
+          <div class="card-body">
+              <h3 class="card-title">Random Forest classifier</h3>
+              <div class="card-text">
+                <p>
+                  Random forests or random decision forests are an ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees.[1][2] Random decision forests correct for decision trees' habit of overfitting to their training set.
+
+                </p>
+                <p>
+                  Random Forest works on the bag of words features where the data of different articles collected is converted into encoded format by using various vectorization techniques based on the requirement some of them are count vectorizer (CV), term frequency and inverse document frequency vectorizer (TFIDF)
+                </p>
+                <p>
+                  The Bag of words will be passed to the Random Forest model as a training data and based on the data the model will learn
+                </p>
+                <p>
+                  Then when any article is passed to classify vectorizer will create sparse matrix and then model will predict based on the word distribution in the sparse matrix.
+                </p>
+                <b><h5>Accuracy score achieved by Random Forest algorithm is 0.8626 </h5></b>
+                <br>
+                <b><p>•	The confusion matrix of Random Forest is as follows [547, 66, 108, 546]</p></b>
+              
+      </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-12">
+      <div class="card mb-4 shadow-sm">
+          <img class="card-img-top"  src={{ data.8 }}/>
+          <div class="card-body">
+              <h3 class="card-title">Decision Tree classifier</h3>
+              <div class="card-text">
+                <p>
+                  Decision tree is the most powerful and popular tool for classification and prediction. A Decision tree is a flowchart like tree structure, where each internal node denotes a test on an attribute, each branch represents an outcome of the test, and each leaf node (terminal node) holds a class label.
+                </p>
+                <p>
+                  If you want to have some deep knowledge you can check <a href="https://www.geeksforgeeks.org/decision-tree/"> Decision Tree Geeks For Geeks </a>
+                </p>
+                <p>
+                  Decision Tree works on the bag of words features where the data of different articles collected is converted into encoded format by using various vectorization techniques based on the requirement some of them are count vectorizer (CV), term frequency and inverse document frequency vectorizer (TFIDF)
+                </p>
+                <p>
+                  The Bag of words will be passed to the Decision Tree model as a training data and based on the data the model will learn
+                </p>
+                <p>
+                  Then when any article is passed to classify vectorizer will create sparse matrix and then model will predict based on the word distribution in the sparse matrix.
+                </p>
+                <b><h5>Accuracy score achieved by Decision Tree algorithm is 0.8279 </h5></b>
+                <br>
+                <b><p>•	The confusion matrix of Decision Tree is as follows [495, 118, 97, 557]</p></b>
+              
+      </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-12">
+      <div class="card mb-4 shadow-sm">
+          <img class="card-img-top"  src={{ data.9 }}/>
+          <div class="card-body">
+              <h3 class="card-title">Support Vector Machine classifier</h3>
+              <div class="card-text">
+                <p>
+                  A Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane. In other words, given labeled training data (supervised learning), the algorithm outputs an optimal hyperplane which categorizes new examples. In two dimentional space this hyperplane is a line dividing a plane in two parts where in each class lay in either side.
+                </p>
+                <p>
+                  In order to have some Indepth knowledge you can navigate to this <a href="https://medium.com/machine-learning-101/chapter-2-svm-support-vector-machine-theory-f0812effc72"> SVM Medium</a>
+                </p>
+                <p>
+                  SVM works on the bag of words features where the data of different articles collected is converted into encoded format by using various vectorization techniques based on the requirement some of them are count vectorizer (CV), term frequency and inverse document frequency vectorizer (TFIDF)
+                </p>
+                <p>
+                  The Bag of words will be passed to the SVM model as a training data and based on the data the model will learn
+                </p>
+                <p>
+                  Then when any article is passed to classify vectorizer will create sparse matrix and then model will predict based on the word distribution in the sparse matrix.
+                </p>
+                <b><h5>Accuracy score achieved by SVM algorithm is 0.8918 </h5></b>
+                <br>
+                <b><p>•	The confusion matrix of SVM is as follows [575, 38, 99, 555]</p></b>
+              
+      </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-12">
+      <div class="card mb-4 shadow-sm">
+          <img class="card-img-top"  src={{ data.10 }}/>
+          <div class="card-body">
+              <h3 class="card-title">K Nearest Neighbours classifier</h3>
+              <div class="card-text">
+                <p>
+                  In pattern recognition, the k-nearest neighbors algorithm (k-NN) is a non-parametric method used for classification and regression.[1] In both cases, the input consists of the k closest training examples in the feature space. The output depends on whether k-NN is used for classification or regression
+                </p>
+                <p>
+                    In order to have some Indepth knowledge you can navigate to this <a href="https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm"> KNN Wikipedia </a>
+                </p>
+                <p>
+                  K Nearest Neighbours works on the bag of words features where the data of different articles collected is converted into encoded format by using various vectorization techniques based on the requirement some of them are count vectorizer (CV), term frequency and inverse document frequency vectorizer (TFIDF)
+                </p>
+                <p>
+                  The Bag of words will be passed to the K Nearest Neighbours model as a training data and based on the data the model will learn
+                </p>
+                <p>
+                  Then when any article is passed to classify vectorizer will create sparse matrix and then model will predict based on the word distribution in the sparse matrix.
+                </p>
+                <b><h5>Accuracy score achieved by k Nearest neighbors algorithm is 0.82 </h5></b>
+                <br>
+                <b><p>•	The confusion matrix of k Nearest Neighbours is as follows [521, 92, 136, 518]</p></b>
+              
+      </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-12">
+      <div class="card mb-4 shadow-sm">
+          <img class="card-img-top"  src={{ data.11 }}/>
+          <div class="card-body">
+              <h3 class="card-title">Hybrid classifier</h3>
+              <div class="card-text">
+                <p>
+                  Hybrid algorithm is a combination of all the above defined algorithms. 
+                  All the algorithms get trained for a specific data and all those are saved in a pickle file for 
+                  referencing data. When new data is given for classification all the algorithms
+                  will classify the data as per there knowledge then the most opting value will
+                  be considered as the result of the Hybrid algorithm.
+                </p>
+                <p>
+                  This algorithm has over performed all the above algorithms. so surely we can
+                  use this algorithm for better accuracy.
+                </p>
+                <p>
+                  Hybrid algorithm works on the bag of words features where the data of different articles collected is converted into encoded format by using various vectorization techniques based on the requirement some of them are count vectorizer (CV), term frequency and inverse document frequency vectorizer (TFIDF)
+                </p>
+                <p>
+                  The Bag of words will be passed to the Hybrid algorithm as a training data and based on the data the model will learn
+                </p>
+                <p>
+                  Then when any article is passed to classify vectorizer will create sparse matrix and then model will predict based on the word distribution in the sparse matrix.
+                </p>
+                <b><h5>Accuracy score achieved by Hybrid algorithm is 0.9258 </h5></b>
+                <br>
+                <b><p>•	The confusion matrix of Hybrid algorithm is as follows [570, 43, 57, 597]</p></b>
+              
+      </div>
+  </div>
+</div>
+
+
+
+{% endblock %}

@@ -35,3 +35,11 @@ clearly make you understand the findings.
 # Note
 The documentation is centered on the Django application so find out what you really want and go for that, don't spend time on areas what
 you don't need.
+
+# How To Read Documentation
+pdf named "Synoptic_Analysis" is the associated research paper I published, read that if you want to know about the algorithm
+pdf name "Report Part1 Intro" is just about the author credentials, you can skip it if you want(But it has Table of Contents)
+pdf name "Report Part2 Main" is complete walk through of the application in a detailed way
+
+# Hope you get benifited from my research
+# reach me on bhanupalagati@gmail.com if you need any help
